@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tan Tai</title>
+</head>
+
+<body>
+    <div class="cau a" style="background-color: coral;">
+        <p style="text-align-last: center;"> <b> Survey Form</b></p>
+        <p> If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answerign any question is optional,and all information will be kept strictly confidential.
+            Thank you very much for your time!<br> </p>
+        <p>1. What is your name?</p>
+        <textarea cols="40" rows="1"></textarea>
+        <p>2. What is your date of birth?<br>
+            <table>
+                <tr>
+                    <td> Date <input type="date" name="txtMonth" value="" size=2 maxlength="2"></td>
+                </tr>
+            </table>
+            <p>3. What is your mailing address?</p>
+            <textarea cols="40" rows="5" style="text-align-last: left;">
+Number/P.O. Box/Rooute:
+Street/Avenue/Road:
+City:
+State/Zip:
+    </textarea>
+            <p>4.What is your email address?<input type="email" name="txtEmail" value="" size="20" maxlength="20"></p>
+            <p>5. Have you viewed our online product catalog?</p>
+            <table>
+                <tr>
+                    <td><input type="checkbox"> Yes</td>
+                    <td><input type="checkbox"> No</td>
+                </tr>
+            </table>
+            <p> 6. If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the futire?</p>
+            <table>
+                <tr>
+                    <td><input type="checkbox">VCR</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Big Screen TV</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Audio Equipment</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Video Equipment</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Camera Equipment</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Orther<textarea cols="20" rows="1">Please List:</textarea></td>
+                </tr>
+            </table>
+            <p> 7. DO you have any questions, comments or suggestions before proceeding to the Order Form?</p>
+            <textarea cols="40" rows="5">Your Input:</textarea><br>
+            <table>
+                <tr>
+                    <td> <input type="Send Form" value="Send Form"></td>
+                    <td> <input type="Clear Form" value="Clear Form"></td>
+                </tr>
+            </table>
+    </div><br><br>
+    <hr>
+
+    <div class="cau b" style="text-align-last: center;">
+        <p> Browser <input type="file" id="myFile" name="myFile"><br></p>
+        <p>UseName:<textarea cols="20" rows="1"></textarea><br> </p>
+        <p>Encrytion:<input type="text" placeholder="2048(High Grade)" value="" size="20" maxlength="20"></p>
+        <p>Brithday: <input type="date" name="txtDate" value="" size="20" maxlength="20"></p>
+        <p> Select your Favorite Color: <input type="color" name="txtColor" value="" size="20" maxlength="20"></p>
+        <p>Brithday(Month and Year)<input type="month" name="txtMonth" value="" size="20" maxlength="20"></p>
+        <p>Select a week :<input type="week" name="txtWeek" value="" size="20" maxlength="20"></p>
+        <p> Select a time:<input type="time" value="" size="20" maxlength="20"></p>
+        <p>Brithday(date and time)<input type="datetime" value="" size="20" maxlength="20"></p>
+        <p> E-mail:<input type="email" name="txtEmail" value="" size="20" maxlength="20"> </p>
+        <p>Search Google</p><input type="search" value="" size="50" maxlength="50"><br>
+        <p> Telephone:<input type="tel" value="" size="20" maxlength="20"></p>
+        <form action="/action_page.php">
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+        </form><br>
+        <input type="submit" value="Submit">
+        <p><b>Note:</b> the datalist tag is not supported in Safari or IE9(and earlier)</p>
+    </div>
+</body>
+
+</html>
