@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0 auto;
+        }
+        .wrapper{
+            height: 700px;
+            width: 890px;
+            background-color: antiquewhite;
+            border: 1px solid;
+        }
+        header{
+            height: 120px;
+            width: 890px;
+            background-color:#294e79;
+            position: relative;
+        }
+        header img{
+            position: absolute;
+            top: 20px;
+            left: 40px;
+        }
+        .p1{
+            position: absolute;
+            left: 100px;
+            top: 10px;
+            color: aliceblue;
+            font-size: 25px;
+        }
+        .p2{
+            position: absolute;
+            left: 120px;
+            top: 50px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+        #frm{
+            position: absolute;
+            left: 650px;
+            top: 10px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+        .top-menu li{
+            position: absolute;
+            height: 45px;
+            width: 120px;
+            background-color: #3d73b1;
+            list-style: none;
+            bottom: 10px;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 10px;
+        }
+        .top-menu li:nth-child(5){
+           right: 30px; 
+        }
+        .top-menu li:nth-child(4){
+           right: 155px; 
+        }
+        .top-menu li:nth-child(3){
+           right: 280px; 
+        }
+        .top-menu li:nth-child(2){
+           right: 405px; 
+        }
+        .top-menu li:nth-child(1){
+           right: 530px; 
+        }
+        li a{
+            color: whitesmoke;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        .top-menu :hover{
+            color: yellow;
+            background-color: #294e79;
+        }
+        .content{
+            height: 550px;
+            width: 890px;
+            background-color: aliceblue;
+            display: flex;
+    
+        }
+        .c1-2{
+            height: 550px;
+            width: 65%;
+            background-color: white;
+            position: relative;
+        }
+
+        .top{
+            position: absolute;
+            height: 19%;
+            width: 100%;
+            background-color: whitesmoke;
+            line-height: 20%;
+            /* padding-top: 5%; */
+            border: 2px;
+            border-bottom: dotted;
+        }
+    
+        .as-left>p{
+            height: 80%;
+            width: 50%;
+            background-color:white;
+            position: absolute;
+            top: 20%;
+            text-align: justify;
+            margin-left: 2%;
+        }
+        .form{
+            position: absolute;
+            top: 45%;
+            width: 50%;
+            height: 50%;
+            padding-left: 3%;
+        }
+        #name{
+            width: 30%;
+            height: 10%;
+            
+        }
+        #email{
+            width: 30%;
+            height: 10%;
+           
+        }
+        #telephone{
+            width: 30%;
+            height: 10%;
+        }
+        #subject{
+            width: 30%;
+            height: 10%;
+        }
+        #message{
+            width: 80%;
+            height: 30%;
+        }
+        .as-right{
+            height: 80%;
+            width: 40%;
+            background-color: rgb(120, 126, 130);
+            position: absolute;
+            top: 20%;
+            left: 60%;
+            text-align: left;
+
+        }
+        .c3{
+            height: 550px;
+            width: 35%;
+            background-color:white;
+            position: relative;
+        }
+        .last{
+            position: absolute;
+            height: 70%;
+            width: 80%;
+            background-color: #E6E6FA;
+            padding: 30% 5% 15% 15%;
+        }
+        footer{
+            height: 30px;
+            width: 890px;
+            background-color: #294e79;
+            color: aliceblue;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="./img/Ảnh chụp Màn hình 2023-03-10 lúc 12.02.31 CH.png" alt="" width="80" height="80">
+            <p class="p1">KHOA CÔNG NGHỆ THÔNG TIN</p>
+            <p class="p2">TO KTPM</p>
+            <form action="" method="get" id="frm">
+                <input type="text" placeholder="Search the site...">
+                <button>GO</button>
+            </form>
+           
+            <div class="top-menu">
+                <ul>
+                    <li><a href="https://iuh.edu.vn/">HOME</a></li>
+                    <li><a href="">PROMOTION</a></li>
+                    <li><a href="">GIFT BASKETS</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <div class="c1-2">
+                <nav class="top">
+                    <h2 style="position: absolute; top: 70%;padding-left: 2%;">Why Not Conact Us Today!</h2>
+                </nav>
+               
+              
+                <aside class="as-left">
+                    
+                    <p> <br> For FlowerBox 360 shoppers, that means not only can you send your friend and lovved ones the highest quality flower found on online, but that you can do so at a great value.</p>
+                    <br>
+                    <div class="form">
+                            <form action="" method="get" >
+                            <input type="text" name="name" id="name"  >
+                            <input type="email" name="email" id="email" >
+                            <br>
+                            <input type="tel" name="telephone" id="telephone">
+                            <input type="text" name="subject" id="subject" >
+                            <br>
+                            <input type="text" name="message" id="message" >
+                        </form>
+                    </div>
+                       
+                </aside>
+
+                <aside class="as-right">
+                    <br>
+                    <h3>FlowerBox 360 Info!</h3>
+                    <br>
+                    <hr style="border: dotted; ">
+                    <br>
+                    <p id="p1">
+                        Operating Hours: <br>
+                        Monday-Friday : 9:00am - 5.00pm. <br>
+                        Saturday: 9.00am -1.00pm. <br>
+                        Sunday: Closed (No deliveries) <br>
+                        ORDER ONLINE 24/7
+                    </p>
+                    <br><br>
+                    <p id="p2">
+                        Software Engineerring Dept, <br>
+                        Imformation Technology Falcuty <br>
+                        First Floor, H.Building
+                    </p>
+                    <br>
+                    <p id="3">
+                        12 Nguyen Van Bao St, Ward 4 Go Vap District <br>
+                        Ho Chi Minh City <br>
+                        Tel: 0283 8940 390 <br>
+                        Fax: 0283 9940 954 
+                    </p>
+                </aside>
+             
+            </div>
+           
+
+          
+            <div class="c3">
+                <div class="last">
+                    <h2>Discounts &Special</h2> <br>
+                    <hr style="border: dotted;">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p style="text-indent: 2%;">  Copyright c 2017 - All Right Reserved - Software Engineerring Department - Industrial University of Ho Chi Minh</p>
+             
+
+        </footer>
+    </div>
+   
+</body>
+</html>
